@@ -16,3 +16,39 @@
 .j-pt-5{
     padding-top: 10%;
 }
+.banner-w-50{
+    width: 50%;
+}
+.frame-img{
+    width: 30px;
+    margin: 0px 106px;
+}
+.cards{
+   border: 0px; 
+   border-bottom: .10px solid #e2e2e2;
+}
+.borders{
+    border-right: .10px solid #e2e2e2;
+    border-left: .10px solid #e2e2e2;
+}
+.sp-card{
+    background: linear-gradient(180deg, #F3F3F3 0%, rgba(243, 243, 243, 0) 100%);
+}
+@media screen and (max-width:576px) {
+    .banner-w-50{
+        width: 90%;
+    }
+    .borders{
+        border-right: 0;
+        border-left:  0;
+    }
+}
+@media screen and (min-width:577px) and (max-width:992px) {
+    .banner-w-50{
+        width: 90%;
+    }
+    .borders{
+        border-right: 0;
+        border-left:  0;
+    }
+}
