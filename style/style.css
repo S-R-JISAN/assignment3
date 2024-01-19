@@ -1,0 +1,18 @@
+.j-btn{
+    background-color: rgba(182, 140, 90, 1);
+    color: white;
+}
+.j-btn:hover{
+    background-color: rgb(179, 110, 25);
+    color: white;
+}
+.j-back-img{
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 580px;
+}
+.j-pt-5{
+    padding-top: 10%;
+}
