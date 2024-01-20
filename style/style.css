@@ -6,6 +6,10 @@
     background-color: rgb(179, 110, 25);
     color: white;
 }
+.j-btn:active{
+    background-color: rgba(182, 140, 90, 1)!important;
+    color: white!important;
+}
 .j-back-img{
     background-image: url(../images/banner.png);
     background-repeat: no-repeat;
@@ -30,6 +34,7 @@
 .borders{
     border-right: .10px solid #e2e2e2;
     border-left: .10px solid #e2e2e2;
+    border-bottom: 0;
 }
 .sp-card{
     background: linear-gradient(180deg, #F3F3F3 0%, rgba(243, 243, 243, 0) 100%);
