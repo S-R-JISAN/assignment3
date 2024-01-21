@@ -59,11 +59,21 @@
     grid-template-columns: repeat(2,1fr);
 }
 .input-w-25{
-    width: 37rem;
+    width: 100%;
     padding: 20px 10px;
     background-color: #F3F3F3;
     border-radius: 8px;
     border: 0;
+}
+.lg-btns{
+    width: 100%;
+    border: 0;
+    border-radius: 8px;
+    background: #B68C5A;
+    padding: 21px 0px;
+}
+.my-flex{
+    display: flex;
 }
 @media screen and (max-width:576px) {
     .banner-w-50{
@@ -76,16 +86,9 @@
     .my-flex{
         flex-direction: column;
     }
-}
-.lg-btns{
-    width: 37rem;
-    border: 0;
-    border-radius: 8px;
-    background: #B68C5A;
-    padding: 21px 0px;
-}
-.my-flex{
-    display: flex;
+    .my-grid{
+        grid-template-columns: repeat(1,1fr);
+    }
 }
 @media screen and (min-width:577px) and (max-width:992px) {
     .banner-w-50{
@@ -97,6 +100,9 @@
     }
     .my-flex{
         flex-direction: column;
+    }
+    .my-grid{
+        grid-template-columns: repeat(1,1fr);
     }
     
 }
