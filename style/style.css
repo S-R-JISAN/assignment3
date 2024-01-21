@@ -31,6 +31,15 @@
    border: 0px; 
    border-bottom: .10px solid #e2e2e2;
 }
+.my-border1{
+    border: 0;
+    border-bottom: .10px solid #e2e2e2;
+    border-right: .10px solid #e2e2e2;
+}
+.my-border2{
+    border: 0;
+    border-right: .10px solid #e2e2e2;
+}
 .borders{
     border-right: .10px solid #e2e2e2;
     border-left: .10px solid #e2e2e2;
@@ -38,6 +47,23 @@
 }
 .sp-card{
     background: linear-gradient(180deg, #F3F3F3 0%, rgba(243, 243, 243, 0) 100%);
+}
+.my-bg{
+    background-color: #eeeeee;
+}
+.card-bg{
+    background-color: #F3F3F3;
+}
+.my-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.input-w-25{
+    width: 37rem;
+    padding: 20px 10px;
+    background-color: #F3F3F3;
+    border-radius: 8px;
+    border: 0;
 }
 @media screen and (max-width:576px) {
     .banner-w-50{
@@ -47,6 +73,19 @@
         border-right: 0;
         border-left:  0;
     }
+    .my-flex{
+        flex-direction: column;
+    }
+}
+.lg-btns{
+    width: 37rem;
+    border: 0;
+    border-radius: 8px;
+    background: #B68C5A;
+    padding: 21px 0px;
+}
+.my-flex{
+    display: flex;
 }
 @media screen and (min-width:577px) and (max-width:992px) {
     .banner-w-50{
@@ -56,4 +95,8 @@
         border-right: 0;
         border-left:  0;
     }
+    .my-flex{
+        flex-direction: column;
+    }
+    
 }
